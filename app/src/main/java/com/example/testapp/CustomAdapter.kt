@@ -8,12 +8,6 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 
-class rec(private val dataSet: Array<String>): RecyclerView.Adapter<rec.WordViewHolder>() {
-    class WordViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-
-
-
-    }
 
 
     class CustomAdapter(private val dataSet: Array<String>) :
