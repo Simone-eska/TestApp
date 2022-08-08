@@ -20,9 +20,22 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_first)
+        setContentView(R.layout.activity_main)
+
+
+        val btnRv = findViewById<Button>(R.id.btnRv)
+
+        btnRv.setOnClickListener {
+            recyclerViewStart()
+        }
 
     }
+
+    private fun recyclerViewStart() {
+        val intent = Intent(this, ThirdActivity::class.java)
+        startActivity(intent)
+    }
+
 
     override fun onRestart() {
         super.onRestart()
