@@ -31,8 +31,8 @@ class SecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        if(activity is MainActivity)
-                (activity as MainActivity).secondFragmentString = "second fragment 1"
+//        if(activity is MainActivity)
+//                (activity as MainActivity).secondFragmentString = "second fragment 1"
 //        binding.buttonSecond.setOnClickListener {
 //            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
 //        }

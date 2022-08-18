@@ -18,9 +18,9 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_second)
-        findViewById<Button>(R.id.button_second).setOnClickListener {
-            startActivity(Intent(this,ThirdActivity::class.java))
-        }
+//        findViewById<Button>(R.id.button_second).setOnClickListener {
+//            startActivity(Intent(this,ThirdActivity::class.java))
+//        }
 
     }
 
